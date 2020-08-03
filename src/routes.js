@@ -12,7 +12,7 @@ import SignInScreen from './pages/SignInScreen';
 
 import AuthContext from './AuthContext';
 
-import { AuthReducer, initialState } from './redux/reducers/authReducer'
+import { AuthReducer, initialState } from './reducers/authReducer'
 
 export default function Routes() {
     const [state, dispatch] = React.useReducer(
